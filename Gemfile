@@ -33,6 +33,7 @@ group :development do
 end
 
 group :development, :test do
+  gem "faker"
   gem "awesome_print"
   gem "bundler-audit", require: false
   gem "byebug"

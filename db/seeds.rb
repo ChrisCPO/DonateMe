@@ -5,3 +5,8 @@
 #
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
+PreSetDonation.create([
+  { name: "coffee", amount: 3.99},
+  { name: "fast food", amount: "7.99"},
+  { name: "new movies", amount: 11.99 }
+])
